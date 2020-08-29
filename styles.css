@@ -29,3 +29,15 @@ p{
   max-width: 400px;
   height: auto;
 }
+p.design{
+  display: none;
+  text-align: center;
+}
+p.development{
+  display: none;
+  text-align: center;
+}
+p.product{
+  display: none;
+  text-align: center;
+}

@@ -8,10 +8,10 @@ jQuery('design').click(function(){
     alert("")
   });
 
-  jQuery('p').click(function(){
+  jQuery('development').click(function(){
     alert("")
   });
 
-  jQuery('img').click(function(){
+  jQuery('product management').click(function(){
     alert("")
   });
