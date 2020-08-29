@@ -10,3 +10,22 @@ p{
   margin-right: auto;
   margin-left: auto;
 }
+.email{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  float: right;
+}
+.name{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  float: left; 
+  color: white;
+  margin: 0;
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
