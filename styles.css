@@ -1,6 +1,10 @@
 body{
-  text-align: center;
-  margin-bottom: auto;
+ margin: 0;
+ padding: 0;
+ font-family: "arial",sans-serif;
+ font-size: 15px;
+ color: white;
+
 }
 p{
   margin: 0pt;
@@ -29,15 +33,20 @@ p{
   max-width: 400px;
   height: auto;
 }
-p.design{
-  display: none;
-  text-align: center;
-}
-p.development{
-  display: none;
-  text-align: center;
-}
-p.product{
-  display: none;
-  text-align: center;
-}
+.list{
+  display: block; 
+  float: right;
+  width: 23%;
+  cursor: pointer;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 0 12px 7px 0;
+  position: relative;
+ }
+ .list img{
+   width: 100%;
+   border-radius: 5px;
+ }
+ footer{
+  align-content: center; 
+ }
