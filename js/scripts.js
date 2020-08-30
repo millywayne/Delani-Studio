@@ -34,6 +34,10 @@ var overlay = $(this).children(".overlay");
 overlay.html("<h3>" + title + "</h3><p>" + desc + "</p>")
 overlay.fadeIn(800);
 });
-$
+$("ul#list li").on("mouseleave"), function(){
+	$(this).append("<div class='overlay'></div>");
+	var overlay = $(this).children(".overlay");
+	overlay.faeout(500);	
+}
 
 });
