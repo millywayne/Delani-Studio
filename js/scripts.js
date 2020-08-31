@@ -1,11 +1,11 @@
 $(document).ready(function () {
 	$("#design").click(function () {
-		$(".design").slideUp('500').hide('1000');
-		$("#design").show('500');
+		$(".design").slideUp('1500').hide('1000');
+		$("#design").show('1500');
 	});
 	$("#design").click(function () {
-		$(".design").slideDown('500');
-		$(".design").slideUp('500');
+		$(".design").slideDown('1500');
+		$(".design").slideUp('1500');
 	});
 });
 $(document).ready(function(){
