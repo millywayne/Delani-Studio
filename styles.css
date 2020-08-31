@@ -1,12 +1,36 @@
-body{
- margin: 0;
- padding: 0;
- font-family:sans-serif;
- font-size: 15px;
- color: white;
- align-content: center;
-
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+#about{
+  background-size: cover;
+  position:center;
+  background:no-repeat;
+  color: black;
+  padding: 10px;
+  text-align: center;
 }
+.services{
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 18px;
+}
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left:18%;
+  margin-right: 16%; 
+}
+.col-mb-4 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.portfolio h2{
+  text-align: center;
+  padding-top:40px;
+}
+
 p{
   margin: 0pt;
 }
@@ -20,6 +44,7 @@ p{
   justify-content: space-around;
   float: right;
 }
+
 .name{
   display: flex;
   flex-wrap: wrap-reverse;
@@ -50,9 +75,44 @@ p {
     text-align: center;
   }
   .logo{
-    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    width: 70px;
+    height: 70px;;
+  }
+  mouse-click{
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 30px; 
+    /* animation-iteration-count: infinite; */
   }
   .card-text{
     color: white;
   }
+  *{
+    box-sizing: border-box;
+  }
+   input{
+     margin-top: 20px;
+   }
+   .workimg {
+    float: right;
+    position: relative;
+    margin: 5px;
+}
+.media{
+  align-self: center;
 
+}
+.design{
+  text-align: center;
+  display: none;
+}
+.development{
+  text-align: center;
+  display: none;
+}
+.product{
+  text-align: center;
+  display: none;
+}

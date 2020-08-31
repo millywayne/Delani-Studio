@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="styles.css" type="text/css">
-  <title>Delani-Studio</title>
+  <title>Delani Studio</title>
 </head>
 
 <body>
@@ -15,227 +15,222 @@
     <div class="card bg-dark text-white">
       <img src="assets/h_img.jpg" class="home/img" width="1050px" height="400px">
       <div class="card-img-overlay">
-        <logo><img src="assets/logo/logo.png" alt="centre"></logo>
-        <h5 class="logo">WELCOME</h5>
-        <h5 class="logo">TO DELANI STUDIO</h5>
-        <p class="card-text">Amazing people are making amazing design in a fun environment.</p>
-        <a href="#about"><img src="assets/mouse_click.png" class="mx-auto d-block click" alt="mouse click"></a>
+        <logo class="logo">
+          <img src="assets/logo/logo.png" alt="centre">
+        </logo>
+        <h2 class="logo">WELCOME</h2>
+        <h2 class="logo">TO DELANI STUDIO</h2>
+        <p class="card-text">AMAZING PEOPLE ARE MAKING DESIGN IN A FUN ENVIRONMENT</p>
+        <a href="#about"><img src="assets/mouse_click.png" alt="mouse click" id="mouse-click"></a>
       </div>
     </div>
-    <div class="about">
-      <h5>ABOUT US</h5>
-      <div class="card-body text-secondary">
-        <p class="card-text">When you work with us,you are part of a team of committed collaborators. All aspects of
-          our software developement process are intergrated interactive and agile.</p>
-        <p>Our approach unifies design, developement and product management to create exceptional products.</p>
-        <p>We start each project by understanding your business goals , the user's needs and the product requirements.
-        </p>
-        <p>Then we help translate them into effective and elegant solutions.</p>
-      </div>
-      <div class="card bg-dark text-white">
-        <img src="assets/s_image.jpg" class="card-img" width="1050px" height="400px">
-        <div class="card-img-overlay">
-          <h5 class="card-title">SERVICES</h5>
-          <p class="card-text">Before we sign a contract or write a line of code our team will spend the necessary
-            time needed to understand your product vision. The outcome of this scoping session is a proposal or
-            high-level statement of work.Based on your requirements ,we can provide a complete offering or just the
-            pieces you need. </p>
+    <div class="container">
+      <div id="about">
+        <h5>ABOUT US</h5>
+        <div class="card-body text-secondary">
+          <p class="card-text">When you work with us,you are part of a team of committed collaborators. All aspects of
+            our software developement process are intergrated interactive and agile.</p>
+          <p>Our approach unifies design, developement and product management to create exceptional products.</p>
+          <p>We start each project by understanding your business goals , the user's needs and the product requirements.
+          </p>
+          <p>Then we help translate them into effective and elegant solutions.</p>
+        </div>
+        <div class="card bg-dark text-white">
+          <img src="assets/s_image.jpg" class="card-img" width="1050px" height="400px">
+          <div class="card-img-overlay">
+            <h5 class="card-title">SERVICES</h5>
+            <p class="card-text">Before we sign a contract or write a line of code our team will spend the necessary
+              time needed to understand your product vision. The outcome of this scoping session is a proposal or
+              high-level statement of work.Based on your requirements ,we can provide a complete offering or just the
+              pieces you need. </p>
+          </div>
         </div>
       </div>
       <div class="list" id="responsive">
         <h5>WHAT WE DO</h5>
         <div class="row">
           <picture class="col-sm">
-            <div class="design">
-              <p id="design">Our design practice offers a full range of services including brand strategy,
-                interaction and visual design and user experience testing.
-                Throughout your project, our designers create and implement visual design and workflows, solicit user
-                feedback and work with you to make sure what gets built is what is needed.</p>
-              <img src="assets/services_icons/design_icon.png" alt="image" class="design">
-              <piccaption id="destext">Design</piccaption><br>
+            <div id="design">
+              <img src="assets/services_icons/design_icon.png" alt="image" id="design">
+              <p>Design</p>
             </div>
-          </picture>
-        <div class="development">
-          <div class="col-sm">
-            <p id="development">All engineers are fluent in the latest enterprise, mobile and web development
-              technologies. They
-              collaborate with your team to write, and improve code on a daily basis, using proven practices such as
-              test-driven development and pair programming.</p>
-            <img src="assets/services_icons/dev_icon.png" alt="image" class="dev">
-            <piccaption id="devtext">Developement</piccaption><br>
-          </div>
-        </div>
-        <div class="product">
-          <div class="col-sm">
-            <p id="product">Planning and development is iterative. Because we are constantly coding and testing, the
-              products we
-              build are
-              always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
-            <img src="assets/services_icons/product_icon.png" alt="image" class="product">
-            <piccaption id="protext">Product Management</piccaption><br>
-          </div>
+            <p class="design">Our design practice offers a full range of services including brand strategy, interaction
+              and visual design and user experience testing. Throughout your project, our designers create and
+              implement visual design and workflows, solicit user feedback and work with you to make sure what gets
+              built is what is needed.</p>
+              <div class="col-sm">
+              <img src="assets/services_icons/dev_icon.png" alt="image" id="dev">
+              <p>Development</p>
+              <p class="development">All engineers are fluent in the latest enterprise, mobile and web development
+                technologies. They collaborate with your team to write, and improve code on a daily basis, using proven
+                practices such astest-driven development and pair programming.</p>
+              </div>
+              <div class="col-sm">
+                <img src="assets/services_icons/product_icon.png" alt="image" id="product">
+                <p>Product management</p>
+              </div>
+              <p class="product">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
+            </div> 
         </div>
       </div>
     </div>
-  </div>
-    <h5 class="portfolio">PORTFOLIO</h5>
-    <div class="row row-cols-1 row-cols-md-3">
-      <div class="col sm-4">
-        <div class="card">
-          <div class="workimg">
-            <img src="assets/portfolio/work4.jpg" class="card-img-bottom" alt="work4-image">
-          </div>
-        </div>
-        <div class="worktext" style="display:none">Delani Studio</div>
-      </div>
-      <div class="col mb-4">
-        <div class="card">
-          <div class="workimg">
-            <img src="assets/portfolio/work3.jpg" class="card-img-top">
-          </div>
-        </div>
-        <div class="worktext" style="display:none">Delani Studio</div>
-      </div>
-      <div class="col mb-4">
-        <div class="card">
-          <div class="workimg">
-            <img src="assets/portfolio/work2.jpg" class="card-img-top">
-          </div>
-        </div>
-        <div class="worktext" style="display:none">Delani Studio</div>
-      </div>
-      <div class="col mb-4">
-        <div class="card">
-          <div class="workimg">
-            <img src="assets/portfolio/work1.jpg" class="card-img-top">
-          </div>
-        </div>
-        <div class="worktext" style="display:none">Delani Studio</div>
-      </div>
+      <h5 class="portfolio">PORTFOLIO</h5>
       <div class="row row-cols-1 row-cols-md-3">
-        <div class="col mb-4">
+        <div class="col sm-4" id="work1">
           <div class="card">
-            <div class="workimg">
-              <img src="assets/portfolio/work5.jpg" class="card-img-bottom">
+            <div class="work4img">
+              <img src="assets/portfolio/work4.jpg" class="card-img-bottom" alt="work4-image">
+              <p class="overlay" id="text">Delani Studio</p>
             </div>
           </div>
-          <div class="worktext" style="display:none">Delani Studio</div>
         </div>
-        <div class="col mb-4">
+        <div class="col mb-4" id="work2">
           <div class="card">
-            <div class="workimg">
-              <img src="assets/portfolio/work6.jpg" class="card-img-top">
+            <div class="work3img">
+              <img src="assets/portfolio/work3.jpg" class="card-img-top">
+              <p class="overlay2" id="text">Delani Studio</p>
             </div>
           </div>
-          <div class="worktext" style="display:none">Delani Studio</div>
         </div>
-        <div class="col mb-4">
+        <div class="col mb-4" id="work3">
           <div class="card">
-            <div class="workimg">
-              <img src="assets/portfolio/work7.jpg" class="card-img-top">
+            <div class="work2img">
+              <img src="assets/portfolio/work2.jpg" class="card-img-top">
+              <p class="overlay3" id="text">Delani Studio</p>
             </div>
           </div>
-          <div class="worktext" style="display:none">Delani Studio</div>
+          <p class="text"></p>
         </div>
-        <div class="col mb-4">
+        <div class="col mb-4" id="work4">
           <div class="card">
-            <div class="card bg-dark text-white">
-              <div class="workimg">
-                <img src="assets/portfolio/work8.jpg" class="card-img">
+            <div class="work1img">
+              <img src="assets/portfolio/work1.jpg" class="card-img-top">
+              <p class="overlay4" id="text">Delani Studio</p>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col mb-4" id="work5">
+            <div class="card">
+              <div class="work5img">
+                <img src="assets/portfolio/work5.jpg" class="card-img-bottom">
+                <p class="overlay5" id="text">Delani Studio</p>
               </div>
-              <div class="worktext" style="display:none">Delani Studio</div>
-              <div class="card-img-overlay">
-                <h1 class="card-title">BAILEY WONGER</h1>
+            </div>
+          </div>
+          <div class="col mb-4" id="work6">
+            <div class="card">
+              <div class="work1img">
+                <img src="assets/portfolio/work6.jpg" class="card-image-top" height="200px">
+                <p class="overlay6" id="text">Delani Studio</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="card bg-dark text-white">
-      <img src="assets/c_image.jpg" class="card-img" width="1050px" height="400px">
-      <div class="card-img-overlay">
-        <h5 class="card-title">CONTACT US</h5>
-        <!-- Begin Mailchimp Signup Form -->
-        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-        <style type="text/css">
-          #mc_embed_signup {
-            background: none;
-            clear: right;
-            font: 14px Helvetica, Arial, sans-serif;
-          }
-        </style>
-        <div id="mc_embed_signup">
-          <form
-            action="https://github.us17.list-manage.com/subscribe/post?u=dbe2c42ec69ec0e6ced3d106b&amp;id=449b54f0c9"
-            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-            target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-              <div class="submission">
-                <div id="row">
-                  <div class="row row-cols-1 row-cols-md-3">
-                    <div class="col -25">
-                      <label for="mce-NAME"><span class="asterix">*</span>
-                      </label>
-                      <input type="text" value="" name="NAME" class="required" id="mce-NAME" placeholder="Name"
-                        style="background:none;">
-                    </div>
-                  </div>
-                  <div class="row row-cols-1 row-cols-md-4">
-                    <div class="col -25">
-                      <label for="mce-EMAIL"><span class="asterix">*</span>
-                      </label>
-                      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
-                        placeholder="Email" style="background: none;">
-                    </div>
-                  </div>
+          <div class="col mb-4" id="work7">
+            <div class="card">
+              <div class="work7img">
+                <img src="assets/portfolio/work7.jpg" class="card-img-top">
+                <p class="overlay7" id="text">Delani Studio</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4" id="work8">
+            <div class="card">
+              <div class="card bg-dark text-white">
+                <div class="work8img">
+                  <img src="assets/portfolio/work8.jpg" class="card-img">
+                  <p class="overlay8" id="text">Delani Studio</p>
                 </div>
-                <dniv class="row">
-                  <div class="col-75">
-                    <label for="mce-MMERGE7"><span class="asterix">*</span>
-                    </label>
-                    <input type="text" value="" name="MMERGE7" class="required" id="mce-MMERGE7"
-                      placeholder="Your message here..." style="height: 100px; width: 600px; background: none;">
-                  </div>
-                  <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                  </div>
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                      name="b_dbe2c42ec69ec0e6ced3d106b_449b54f0c9" tabindex="-1" value=""></div>
-                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                      class="button"></div>
+                <div class="card-img-overlay">
+                  <h1 class="card-title">BAILEY WONGER</h1>
+                </div>
               </div>
-          </form>
+            </div>
+          </div>
         </div>
       </div>
-      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-      <script
-        type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[2] = 'NAME'; ftypes[2] = 'text'; fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[7] = 'MMERGE7'; ftypes[7] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
-      <p class="card-text"> </p>
+      <div class="card bg-dark text-white">
+        <img src="assets/c_image.jpg" class="card-img" width="1050px" height="400px">
+        <div class="card-img-overlay">
+          <h5 class="card-title">CONTACT US</h5>
+          <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+          <style type="text/css">
+            #mc_embed_signup {
+              background: none;
+              clear: right;
+              font: 14px Helvetica, Arial, sans-serif;
+            }
+          </style>
+          <div id="mc_embed_signup">
+            <form
+              action="https://github.us17.list-manage.com/subscribe/post?u=dbe2c42ec69ec0e6ced3d106b&amp;id=449b54f0c9"
+              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+              target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <div class="submission">
+                  <div id="row">
+                    <div class="row row-cols-1 row-cols-md-3">
+                      <div class="col -25">
+                        <label for="mce-NAME"><span class="asterix">*</span>
+                        </label>
+                        <input type="text" value="" name="NAME" class="required" id="mce-NAME" placeholder="Name"
+                          style="background:none;">
+                      </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-4">
+                      <div class="col -25">
+                        <label for="mce-EMAIL"><span class="asterix"></span>
+                        </label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"
+                          placeholder="Email" style="background: none;">
+                      </div>
+                    </div>
+                  </div>
+                  <dniv class="row">
+                    <div class="col-75">
+                      <label for="mce-MMERGE7"><span class="asterix"></span>
+                      </label>
+                      <input type="text" value="" name="MMERGE7" class="required" id="mce-MMERGE7"
+                        placeholder="Your message here..." style="height: 100px; width: 600px; background: none;">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                      <div class="response" id="mce-error-response" style="display:none"></div>
+                      <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_dbe2c42ec69ec0e6ced3d106b_449b54f0c9" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe"
+                        id="mc-embedded-subscribe" class="button"></div>
+                </div>
+            </form>
+          </div>
+        </div>
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script
+          type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[2] = 'NAME'; ftypes[2] = 'text'; fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[7] = 'MMERGE7'; ftypes[7] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+        <p class="card-text"> </p>
+      </div>
     </div>
+    <div class="alert alert-primary" role="alert">
+    </div>
+    <footer>
+      <div class="media">
+        <a><img src="assets/social_icons/behance.png"></a>
+        <a><img src="assets/social_icons/dribble.png"></a>
+        <a><img src="assets/social_icons/facebook.png"></a>
+        <a><img src="assets/social_icons/flickr.png"></a>
+        <a><img src="assets/social_icons/g_plus.png"></a>
+        <a><img src="assets/social_icons/pinterest.png"></a>
+        <a><img src="assets/social_icons/skype.png"></a>
+        <a><img src="assets/social_icons/stumble_upon.png"></a>
+        <a><img src="assets/social_icons/twitter.png"></a>
+        <a><img src="assets/social_icons/you_tube.png"></a>
+      </div>
+      <p>Delani Studio</p>
+      <p>2020</p>
   </div>
-  <div class="alert alert-primary" role="alert">
-  </div>
-  <footer>
-    <div class="media">
-      <a><img src="assets/social_icons/behance.png"></a>
-      <a><img src="assets/social_icons/dribble.png"></a>
-      <a><img src="assets/social_icons/facebook.png"></a>
-      <a><img src="assets/social_icons/flickr.png"></a>
-      <a><img src="assets/social_icons/g_plus.png"></a>
-      <a><img src="assets/social_icons/pinterest.png"></a>
-      <a><img src="assets/social_icons/skype.png"></a>
-      <a><img src="assets/social_icons/stumble_upon.png"></a>
-      <a><img src="assets/social_icons/twitter.png"></a>
-      <a><img src="assets/social_icons/you_tube.png"></a>
-    </div>
-    <p>Delani Studio</p>
-    <p>2020</p>
-    </div>
-    <div>
-  </footer>
+  <div>
+    </footer>
   </div>
   </div>
   </div>
