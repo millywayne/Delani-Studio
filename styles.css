@@ -19,8 +19,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left:18%;
-  margin-right: 16%; 
 }
 .col-mb-4 img{
   max-width: 100%;
@@ -107,12 +105,18 @@ p {
 .design{
   text-align: center;
   display: none;
+  width: 50%;
+  height: 100%;
 }
 .development{
   text-align: center;
   display: none;
+  width: 50%;
+  height: 100%;
 }
 .product{
   text-align: center;
   display: none;
+  width: 50%;
+  height: 100%;
 }
