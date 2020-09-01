@@ -6,20 +6,27 @@ body{
   background-color: white;
 }
 .design{
-  text-align: center;
   display: none;
   width: 50%;
-  height: 50%;
+  height: 10%;
+  padding-right: 10px;
+  margin-left: auto;
 }
 .development{
-  text-align: center;
   display: none;
   width: 50%;
-  height: 50%;
+  height: 10%;
+  padding-right: 10px;
 }
 .product{
-  text-align: center;
   display: none;
   width: 50%;
-  height: 50%;
+  height: 10%;
+  padding-right: 10px;
+  margin-right: auto;
+}
+.media{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
