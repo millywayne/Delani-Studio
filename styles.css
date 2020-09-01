@@ -1,29 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 body{
   text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bold;
 }
 .jumbotron{
   background-color: white;
 }
 .design{
   display: none;
-  width: 50%;
+  width: 180px;
   height: 10%;
-  padding-right: 10px;
-  margin-left: auto;
+  padding-left: 10px;
+  
 }
 .development{
   display: none;
-  width: 50%;
+  width: 180px;
   height: 10%;
-  padding-right: 10px;
+  padding: 10px;
 }
 .product{
   display: none;
-  width: 50%;
+  width: 180px;
   height: 10%;
   padding-right: 10px;
-  margin-right: auto;
 }
 .media{
   display: block;
@@ -46,4 +49,17 @@ input[type=text] {
 ::-webkit-input-placeholder {
   background:transparent;
   color: white;
+}
+.card{
+  align-content: center;
+}
+img{
+  vertical-align: middle;
+}
+.container-fluid{
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+display: block;
+justify-self: center;
 }
