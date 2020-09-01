@@ -56,10 +56,9 @@ input[type=text] {
 img{
   vertical-align: middle;
 }
-.container-fluid{
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
-display: block;
-justify-self: center;
+
+.portfolio:hover{
+color: blak;
+width: auto;
+height: auto;
 }

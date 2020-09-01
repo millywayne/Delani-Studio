@@ -1,22 +1,12 @@
-$("#design").click(function () {
+$(document).ready(function () {
+	$("#design").click(function () {
 		$(".design").toggle('1500');
 		$("#design").toggle('1500');
 	});
-$(document).ready(function () {
-	/*$("#design").click(function () {
-		$(".design").slideUp('1500').hide('1000');
-		$("#design").show('1500');
-	});*/
 	$(".design").click(function () {
 		$("#design").toggle('1500');
 		$(".design").toggle('1500');
 	});
-});
-$(document).ready(function () {
-	/*$("#dev").click(function () {
-		$(".development").slideUp('1500').hide('1000');
-		$("#dev").show('500');
-	});*/
 	$("#dev").click(function () {
 		$(".development").toggle('1500');
 		$("#dev").toggle('1500');
@@ -25,12 +15,6 @@ $(document).ready(function () {
 		$("#dev").toggle('1500');
 		$(".development").toggle('1500');
 	});
-});
-$(document).ready(function () {
-	/*$("#product").click(function () {
-		$(".product").slideUp('1500').hide('1000');
-		$("#product").show('1500');
-	});*/
 	$("#product").click(function () {
 		$(".product").toggle('1500');
 		$("#product").toggle('1500');
