@@ -75,7 +75,7 @@ $(document).ready(function () {
 	});
 });
 $(document).ready(function () {
-	$("form#form34A").submit(function (event) {
+	$("form#form").submit(function (event) {
 		var name = $("input#MERGE1").val();
 		var email = $("input#MERGE0").val();
 		var message = $("textarea#comment").val();
@@ -87,6 +87,6 @@ $(document).ready(function () {
 		}
 	});
 });
-$(".card").hover(function () {
-	$(this).children(".card-1").fadeToggle(1000, "linear");
+$("#overlay").hover(function () {
+	$(this).children(".overlay1").fadeToggle(1000, "linear");
   });
