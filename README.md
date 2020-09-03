@@ -6,7 +6,7 @@
 ## Known Bugs
 *{No known bugs.}
 ## Technologies Used
-*{used html,css. ootstrap and js/jquery}
+*{used html,css. bootstrap and js/jquery}
 ## Support and contact details
 *{For any contributions or inquiries, feel free to contact me on}:
 *{Email:achiengmillicent35@gmail.com}
