@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function () {
 	$("#design").click(function () {
 		$(".design").toggle('1500');
@@ -90,3 +91,5 @@ $(document).ready(function () {
 $("#overlay").hover(function () {
 	$(this).children(".overlay1").fadeToggle(1000, "linear");
   });
+=======
+>>>>>>> 09456a0bef2f636bd057e2aa20715b3df50c0465
