@@ -62,12 +62,6 @@ input[type=text] {
 img{
   vertical-align: middle;
 }
-
-.portfolio:hover{
-color: black;
-width: auto;
-height: auto;
-}
 .services{
   margin: 0;
   position: absolute;
@@ -76,4 +70,46 @@ height: auto;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
+}
+.workimg #text {
+  display: none;
+  opacity: 1;
+  background-color:rgba(255, 255, 255, 0.6);
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  color: blue;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 30px;
+  height: 100%;
+  width: 100%;
+}
+.workimg{
+  width: 100%;
+}
+#email{
+  width: 20%;
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
+#name{
+  width: 20%;
+  margin-right: 30%;
+  margin-top: 8px;
+}
+input[type=text],input[type=email],#comment{
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  font-family:'Yanone Kaffeesatz', sans-serif;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 4px;
+}
+button{
+  margin-left: 20%;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
 }

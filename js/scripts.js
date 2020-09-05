@@ -87,6 +87,3 @@ $(document).ready(function () {
 		}
 	});
 });
-$("#overlay").hover(function () {
-	$(this).children(".overlay1").fadeToggle(1000, "linear");
-  });
